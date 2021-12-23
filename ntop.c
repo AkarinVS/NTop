@@ -341,7 +341,7 @@ SORT_PROCESS_BY_INTEGER(DiskUsage);
 SORT_PROCESS_BY_STRING(ExeName, MAX_PATH);
 SORT_PROCESS_BY_STRING(UserName, UNLEN);
 
-static process_sort_type ProcessSortType = SORT_BY_ID;
+static process_sort_type ProcessSortType = SORT_BY_PROCESSOR_TIME;
 
 static TCHAR OSName[256];
 static DWORD CPUCoreCount;
